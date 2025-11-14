@@ -8,7 +8,7 @@ This project demonstrates a **secure**, **scalable REST API** with **JWT-based a
 
 ### 🖥️ Backend Setup
 
-```bash
+```cmd
 # Clone the repository
 git clone https://github.com/your-username/project-name.git
 cd server
@@ -19,40 +19,54 @@ npm install
 # Add environment variables
 touch .env
 
+# add environment variables to .env file
+BASE_URL=http://localhost:4000
+MONGO_URL=mongodb://localhost:27017/<database_name>
+SECRET_KEY=<your_secret_key>
+
+```
+## ✨ Frontend setup
+ ```cmd
 # From the cloned repository, change directory to client
 cd client
 
 # Install frontend dependencies
 npm install
 
+```
+## 👌 Overall setup
+```cmd
 # In the root repository, run the following commands
 npm install
 npm start
 ```
+
 # 🧩 Tech Stack
 ## 🔧 Backend
 
-Node.js + Express.js
+- Node.js + Express.js
 
-MongoDB (Mongoose ODM)
+- MongoDB (Mongoose ODM)
 
-JWT Authentication
+- JWT Authentication
 
-bcrypt.js for password hashing
+- bcrypt.js for password hashing
 
-dotenv for environment configuration
+- dotenv for environment configuration
 
-cors and helmet for security
+- cors and helmet for security
 
 ## 🎨 Frontend
 
-React.js
+- React.js
 
-Axios for API calls
+- Axios for API calls
 
-Tailwind CSS for basic styling (if used)
+- Tailwind CSS for basic styling
 
-React Router for navigation
+- React Router for navigation
+
+---
 
 # ⚙️ Features Implemented
 ## 🔐 Authentication
@@ -104,6 +118,8 @@ Secure token handling in headers/localStorage
 Input sanitization
 
 CORS-enabled backend
+
+----
 
 ## 🧮 Database Schema (MongoDB – Mongoose)
 👤 User Model
