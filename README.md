@@ -25,7 +25,7 @@ MONGO_URL=mongodb://localhost:27017/<database_name>
 SECRET_KEY=<your_secret_key>
 
 ```
-## ✨ Frontend setup
+### ✨ Frontend setup
  ```cmd
 # From the cloned repository, change directory to client
 cd client
@@ -34,7 +34,7 @@ cd client
 npm install
 
 ```
-## 👌 Overall setup
+### 👌 Overall setup
 ```cmd
 # In the root repository, run the following commands
 npm install
@@ -42,7 +42,7 @@ npm start
 ```
 
 # 🧩 Tech Stack
-## 🔧 Backend
+### 🔧 Backend
 
 - Node.js + Express.js
 
@@ -56,7 +56,7 @@ npm start
 
 - cors and helmet for security
 
-## 🎨 Frontend
+### 🎨 Frontend
 
 - React.js
 
