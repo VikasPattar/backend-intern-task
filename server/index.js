@@ -1,7 +1,8 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-const port = 4000
+require('dotenv').config({path : './.env'})
+const port = process.env.PORT
 const internTask = require('./intern-task-app')
 
 app.use(cors())
